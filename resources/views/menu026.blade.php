@@ -202,6 +202,17 @@
             <div class="arrow">→</div>
         </a>
 
+        <a href="/tugaspraETS" class="card">
+    <div class="left">
+        <div class="icon green">📝</div>
+        <div>
+            <div class="title">Tugas Pra ETS</div>
+            <div class="desc">Sebelum ETS</div>
+        </div>
+    </div>
+    <div class="arrow">→</div>
+</a>
+
     </div>
 
 </div>

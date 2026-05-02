@@ -44,6 +44,10 @@ Route::get('/tugaspertemuan7', function () {
 	return view('menu026');
 });
 
+Route::get('/tugaspraETS', function () {
+	return view('tugas_ets');
+});
+
 Route::get('/halo', function () {
 	return "<h1>Halo, Selamat datang</h1> di tutorial laravel <b>www.malasngoding.com/b>";
 });
