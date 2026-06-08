@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\KeyboardDBController;
+use App\Http\Controllers\NilaiKuliahController;
 
 Route::get('/', function () {
     return view('menu026');
@@ -84,3 +85,7 @@ Route::get('/keyboard/edit/{id}', [KeyboardDBController::class, 'edit']);
 Route::post('/keyboard/update', [KeyboardDBController::class, 'update']);
 Route::get('/keyboard/hapus/{id}', [KeyboardDBController::class, 'hapus']);
 Route::get('/keyboard/cari', [KeyboardDBController::class, 'cari']);
+
+Route::get('/nilaikuliah', [NilaiKuliahController::class, 'index']);
+Route::get('/nilaikuliah/tambah', [NilaiKuliahController::class, 'tambah']);
+Route::post('/nilaikuliah/store', [NilaiKuliahController::class, 'store']);
