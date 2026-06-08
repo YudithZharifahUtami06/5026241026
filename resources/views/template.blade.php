@@ -24,13 +24,16 @@
                         <a class="nav-link active" href="/pegawai">Pegawai</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/keyboard">PR 1</a>
+                        <a class="nav-link" href="/siswa">Pertemuan 14</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/keyboard">Tugas Pra EAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/nilaikuliah">PR 2</a>
+                        <a class="nav-link" href="/nilaikuliah">Latihan EAS Perempuan</a>
+                    </li>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PR 3</a>
+                        <a class="nav-link" href="/keranjangbelanja">Latihan EAS Laki-laki</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">EAS</a>
